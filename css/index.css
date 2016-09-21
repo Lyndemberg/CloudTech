@@ -1,0 +1,21 @@
+@import 'https://fonts.googleapis.com/css?family=Baloo+Bhaina';
+#cabecalho{
+    width: 100%;
+}
+#logo{
+    position:absolute;
+    left:34%;
+}
+#textoCabecalho1{
+    position:absolute;
+    top:2%;
+    left:51%;
+    font-family: 'Baloo Bhaina', cursive;
+}
+#textoCabecalho2{
+    position:absolute;
+    top:-6%;
+    left:48%;
+    font-family: 'Baloo Bhaina', cursive;
+    font-size: 70pt;
+}
