@@ -20,9 +20,36 @@
     font-size: 70pt;
 }
 #frameDireito{
-    width:65%;
+    width: 65%;
     height: 70%;
     margin-top:15%;
     margin-left: 1%;
     
+}
+
+/* POSTAGENS */
+#postagens{
+    position: relative;
+    top: -70.5%;
+    left: 70%;
+    height: 50%;
+    width: 30%;
+    border-radius: 4px;
+    border: 4px solid deeppink;
+}
+
+#postagem{
+    margin: 5px;
+    margin-top: 12px;
+    margin-left: 10px;
+    height: 20%;
+    width: 95%;
+    transition-duration: 2s;
+    text-align: center;
+}
+
+#postagem:hover{
+    border-radius: 4px;
+    transition-duration: 0.4s;
+    background-color: deepskyblue;
 }
