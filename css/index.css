@@ -28,7 +28,7 @@ body{
 /* IFRAME DO CONTEÚDO */
 #iframeConteudo{
     width: 65%;
-    height: 70%;
+    height:402%;
     margin-top:15%;
     margin-left: 1%;
     
@@ -37,7 +37,7 @@ body{
 /* POSTAGENS RECENTES */
 #postagens{
     position: relative;
-    top: -70.5%;
+    top: -402%;
     left: 70%;
     height: 50%;
     width: 30%;
