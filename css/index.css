@@ -53,3 +53,12 @@
     transition-duration: 0.4s;
     background-color: deepskyblue;
 }
+#rodape{
+    background-color:darkgrey;
+    height: 3%;
+    color:black;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom:2%;
+    padding-top: 0.5%; 
+}
