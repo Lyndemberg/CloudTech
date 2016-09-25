@@ -24,6 +24,11 @@ img{
 }
 .icones{
     width: 5%;
-    margin-bottom: 0;
-    float:left;
+    position:absolute;
+    left:1%;
+}
+.nomesIcones{
+    position: relative;
+    left:5.5%;
+    margin-top:3.6%;
 }

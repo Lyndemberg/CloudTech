@@ -4,6 +4,7 @@
         <title>CloudTech - Blog</title>
         <link rel="icon" href="imagens/favicon.png" />
         <link rel=stylesheet href="css/index.css"/>
+        <link rel=stylesheet href="css/font-awesome.css"/>
     </head>
     <body>
         <div id="cabecalho">
@@ -12,29 +13,86 @@
             <h1 id="textoCabecalho2">Tech</h1>
         </div>
         
-        <iframe frameborder="0" id="iframeConteudo" name="iframeConteudo" src="post.html">    
         
+        <iframe frameborder="0" id="iframeConteudo" name="iframeConteudo" src="">    
+            
         </iframe>
         
         
         <!-- INICIO DAS POSTAGENS RECENTES -->
-        
+        <center><h2 id="tituloRecentes">Recentes</h2></center>
         <div id='postagens'>
             <!-- PRIMEIRA RECENTE -->
-            <div class='postagem'></div>
-            <!-- SEGUNDA RECENTE -->
-            <img src="postagens/post2/imagenes-de-infinito-5.png" class='classeImgRecentes' style='width:20%;height:10%;margin-top: 25px;margin-left:10px'/>
-            <div class='postagem'><a href='postagens/post2/post2.html' target='iframeConteudo'><p>Integração Contínua</p></a></div>
-            <!-- TERCEIRA RECENTE -->
-                <img src="postagens/posts3/download.png" class="classeImgRecentes" style="margin:10px;margin-left:10px; margin-top:25px;">
-            <div class='postagem'><a href="postagens/posts3/post.html" target="iframeConteudo"><p style='margin-left:-20px;'>Testes Automatizados</p></a></div>
+			<a style="text-decoration:none;" href="postagens/post4/post4.html"target="iframeConteudo">
+				<div class='postagem'>
+					<img class="classeImgRecentes" src="postagens/post4/versao.png"/>
+					<p>Porque o controle de versão?</p>
+				</div>
+			</a>
+			
+			<!-- SEGUNDA RECENTE -->
+			<a style="text-decoration:none;" href="postagens/posts3/post.html" target="iframeConteudo">
+				<div class='postagem'>
+					<img class="classeImgRecentes" src="postagens/posts3/download.png"/>
+					<p>Testes Automatizados</p>
+				</div>
+			</a>
+           
+		   <!-- TERCEIRA RECENTE -->
+		   <a  style="text-decoration:none;" href='postagens/post2/post2.html' target="iframeConteudo">
+			<div class='postagem'>
+				<img class="classeImgRecentes" src="postagens/post2/imagenes-de-infinito-5.png" />
+				<p>Integração Contínua</p>
+			</div>  
+		   </a>
             
             <!-- QUARTA RECENTE -->
-            <img class="classeImgRecentes" src="postagens/post1/github.png" style='margin-top: 10px;margin-left:-10px;'/>
-            <div class='postagem'><a href="postagens/post1/post1.html"target="iframeConteudo"><p>O GitHub e a facilidade no dia a dia do desenvolvedor</p></a></div>
+			<a style="text-decoration:none;" href="postagens/post1/post1.html"target="iframeConteudo">
+				<div class='postagem'>
+					<img class="classeImgRecentes" src="postagens/post1/github.png"/>
+					<p>O GitHub e a facilidade no dia a dia do desenvolvedor</p>
+				</div>
+			</a>
             
         </div>
         <!-- FIM DAS POSTAGENS RECENTES -->
+        <!-- COLUNISTAS -->
+        <h2 id="tituloColunistas">Colunistas</h2>
+        <div id="colunistas">
+            <center>
+            <!-- FELIPE -->
+                <img class="fotoAutor" src="imagens/felipe.jpg"/>
+                <h3>Felipe Gomes</h3>
+                <a class="linkSocial" target="_blank" href="https://github.com/FelipeGomesPC">
+                    <i  class="fa fa-github" aria-hidden="true"></i>
+                </a>
+                <a class="linkSocial" target="_blank" href="https://www.facebook.com/felipemoraal">
+                    <i  class="fa fa-facebook-official" aria-hidden="true"></i>
+                </a><br/><br/>
+            <!-- FIM FELIPE -->
+            <!-- LYNDEMBERG -->    
+                <img class="fotoAutor" src="imagens/lyndemberg.jpg"/>
+                <h3>Lyndemberg Batista</h3>
+                <a class="linkSocial" target="_blank" href="https://github.com/Lyndemberg">
+                    <i  class="fa fa-github" aria-hidden="true"></i>
+                </a>
+                <a class="linkSocial" target="_blank" href="https://www.facebook.com/LyndembergBatista">
+                    <i  class="fa fa-facebook-official" aria-hidden="true"></i>
+                </a><br/><br/>
+            <!-- FIM LYNDEMBERG -->
+            <!-- JONAS -->
+                <img class="fotoAutor" src="imagens/jonas.jpg"/><br/>
+                <h3>Jonas Pequeno</h3>
+                <a class="linkSocial" target="_blank" href="https://github.com/JonasPequeno">
+                    <i  class="fa fa-github" aria-hidden="true"></i>
+                </a>
+                <a class="linkSocial" target="_blank" href="https://www.facebook.com/profile.php?id=100003748522770&fref=ts">
+                    <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                </a><br/><br/>
+            <!-- FIM JONAS -->
+            </center>
+        </div>
+        <!-- FIM COLUNISTAS-->
         
         <div id="rodape">
             <p> Copyright © 2016  Blog Cloud Technology - Todos os direitos reservados.</p>  
