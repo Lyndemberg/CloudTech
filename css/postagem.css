@@ -1,21 +1,12 @@
-#titulo{
-    font-family: 'Open Sans',sans-serif;
-    font-weight: bold;
-    color: deeppink;
-    font-size: 30px;
-    position: absolute;
-    top: 200px;
-}
-#postagemGeral{
-    height: 100%;
-    width: 99%;
-    margin: 1px;
-    position:absolute;
-    top: 300px;
+ h1{
+font-family: "Open sans",sans-serif;
+font-weight: bold;
+font-size: 45px;
 }
 
+
 .post{
-    height: 50%;
+    padding: 3%;
     width: 70%;
     border-radius: 3px; 
     margin: 30px;
@@ -23,13 +14,8 @@
     transition-duration: 1s;
     font-family: 'Open Sans',sans-serif;
     font-size: 20px;
-    
-    
 }
-
 .post p{
-    position: absolute;
-    margin: 180px;
     color:aliceblue;
 }
 

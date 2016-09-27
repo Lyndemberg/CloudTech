@@ -7,14 +7,21 @@
         <link rel=stylesheet href="css/font-awesome.css"/>
     </head>
     <body>
-        <div id="cabecalho">
-            <img id="logo" src="imagens/preto.png"/>
-            <h1 id="textoCabecalho1">Cloud</h1>
-            <h1 id="textoCabecalho2">Tech</h1>
+        <a style="text-decoration:none; color:black;" href="home.html" target="iframeConteudo">
+            <div id="cabecalho">
+                <img id="logo" src="imagens/preto.png"/>
+                <h1 id="textoCabecalho1">Cloud</h1>
+                <h1 id="textoCabecalho2">Tech</h1>
+            </div>
+        </a>
+        <!-- MENU NO CABEÇALHO -->
+        <div id="menu">
+            <a class="menuItem" href="home.html" target="iframeConteudo">Página Inicial</a>
+            <a class="menuItem" href="postagensGeral.html" target="iframeConteudo">Postagens</a>
         </div>
         
-        
-        <iframe frameborder="0" id="iframeConteudo" name="iframeConteudo" src="">    
+        <!-- INICIALMENTE ESSE IFRAME APONTA PRA HOME.HTML -->
+        <iframe frameborder="0" scrolling="auto" id="iframeConteudo" name="iframeConteudo" src="home.html">    
             
         </iframe>
         
@@ -47,10 +54,9 @@
 		   </a>
             
             <!-- QUARTA RECENTE -->
-			<a style="text-decoration:none;" href="postagens/post1/post1.html"target="iframeConteudo">
+			<a style="text-decoration:none;" href="postagensGeral.html"target="iframeConteudo">
 				<div class='postagem'>
-					<img class="classeImgRecentes" src="postagens/post1/github.png"/>
-					<p>O GitHub e a facilidade no dia a dia do desenvolvedor</p>
+					<p style="color:black;font-size:20px;">Clique aqui para ver todas as postagens</p>
 				</div>
 			</a>
             
@@ -93,7 +99,7 @@
             </center>
         </div>
         <!-- FIM COLUNISTAS-->
-        
+        <i id="scrollTop" class="fa fa-arrow-up" aria-hidden="true"></i>
         <div id="rodape">
             <p> Copyright © 2016  Blog Cloud Technology - Todos os direitos reservados.</p>  
              

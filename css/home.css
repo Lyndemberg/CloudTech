@@ -1,11 +1,6 @@
-body{
-    background-color: deeppink;
-}
+
 
 #entrada{
-    position: absolute;
-    top: 43%;
-    left: 49%;
     background-color: deepskyblue;
     height: 50px;
     width: 50px;
@@ -15,9 +10,6 @@ body{
 
 #entrada:hover{
     transition-duration: 1s;
-    position: absolute;
-    top: 30%;
-    left: 40%;
     width: 300px;
     height: 300px;
     border-radius: 150px;
@@ -26,4 +18,12 @@ body{
     background-repeat: no-repeat;
     background-position: center ;
     background-size: 100px 100px;
+}
+.bolinhas{
+     margin-top: 5%;
+    margin-left: 18%;
+    border-radius: 150%;
+    width: 22%;
+    background-color: deepskyblue;
+    float:left;
 }

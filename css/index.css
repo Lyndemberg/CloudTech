@@ -7,6 +7,7 @@ body{
 /* CABEÇALHO */
 #cabecalho{
     width: 100%;
+    
 }
 #logo{
     position:relative;
@@ -14,8 +15,8 @@ body{
 }
 #textoCabecalho1{
     position:absolute;
-    top:2%;
-    left:51%;
+    top:3%;
+    left:52%;
     font-family: 'Baloo Bhaina', cursive;
 }
 #textoCabecalho2{
@@ -28,7 +29,8 @@ body{
 /* IFRAME DO CONTEÚDO */
 #iframeConteudo{
     width: 70%;
-    height:1700px;
+    min-height: 1600px;
+     
 }
 /* TÍTULOS RECENTES */
 #tituloRecentes{
@@ -130,4 +132,27 @@ body{
 }
 .linkSocial:hover{
     opacity:1;
+}
+
+#scrollTop{
+    padding: 1%;
+    background-color: black;
+    color:white;
+    float:right;
+    font-size: 50px;
+}
+#menu{
+    margin-right: 2%;
+    margin-bottom: 4%;
+}
+.menuItem{
+    font-weight:bolder;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    background-color: deepskyblue;
+    color:black;
+    padding:1%;
+}
+.menuItem:hover{
+    background-color: #0996c6;
 }
