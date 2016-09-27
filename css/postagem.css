@@ -21,6 +21,16 @@
     margin: 30px;
     background-color: cadetblue;
     transition-duration: 1s;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 20px;
+    
+    
+}
+
+.post p{
+    position: absolute;
+    margin: 180px;
+    color:aliceblue;
 }
 
 .post:hover{
