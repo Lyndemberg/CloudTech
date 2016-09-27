@@ -1,0 +1,32 @@
+#titulo{
+    font-family: 'Open Sans',sans-serif;
+    font-weight: bold;
+    color: deeppink;
+    font-size: 30px;
+    position: absolute;
+    top: 200px;
+}
+#postagemGeral{
+    height: 100%;
+    width: 99%;
+    margin: 1px;
+    position:absolute;
+    top: 300px;
+}
+
+.post{
+    height: 50%;
+    width: 70%;
+    border-radius: 3px; 
+    margin: 30px;
+    background-color: cadetblue;
+    transition-duration: 1s;
+}
+
+.post:hover{
+    border-radius: 4px;
+    transition-duration: 0.4s;
+    background-color: deepskyblue;
+    color: aliceblue;
+    text-decoration: none;
+}

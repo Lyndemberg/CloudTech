@@ -1,0 +1,29 @@
+body{
+    background-color: deeppink;
+}
+
+#entrada{
+    position: absolute;
+    top: 43%;
+    left: 49%;
+    background-color: deepskyblue;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    transition-duration: 0.5s;
+}
+
+#entrada:hover{
+    transition-duration: 1s;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    background: url(../imagens/colorido.png);
+    background-color: aquamarine;
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: 100px 100px;
+}
